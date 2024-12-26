@@ -15,7 +15,7 @@ jobs:
       aBoolean: ${{ false }}
       aNull: ${{ null }}
       aNumber: ${{ 42 }}
-      aString: ${{ this is a string }}
+      aString: this is a string 
     steps: 
       - name: test null
         if: (env.aNull == null)
