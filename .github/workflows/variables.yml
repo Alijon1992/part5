@@ -12,7 +12,7 @@ jobs:
     name: jot to test expressions
     runs-on: ubuntu-latest
     env: 
-      aBoolean: ${{ true }}
+      aBoolean: ${{ false }}
       aNull: ${{ null }}
       aNumber: ${{ 42 }}
       aString: this is a string 
